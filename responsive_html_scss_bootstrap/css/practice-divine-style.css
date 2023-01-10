@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav .container button {
+  border: none;
+}
+nav .container button:focus {
+  box-shadow: none;
+}
+nav .container ul {
+  list-style-type: none;
+}
+nav .container ul li {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  border-right: 2px solid #716d6e;
+}
+nav .container ul li a {
+  font-size: 22px;
+}
+
+#img {
+  margin-top: 100px;
+  background-color: #fff;
+}
+#img .container {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#img .col-md-4 {
+  padding-bottom: 50px;
+}
+#img img {
+  width: 350px;
+  height: 200px;
+}
+
+#head {
+  margin-top: 100px;
+  background-color: darkred;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#head h1 {
+  margin-top: 30px;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+  color: #716d6e;
+  margin-bottom: 30px;
+}
+#head p {
+  color: #000;
+  text-align: center;
+  font-size: 22px;
+}
+
+#info {
+  margin-top: 100px;
+}
+#info .col-md-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  border: none;
+  border-bottom: 2px solid #6c757d;
+  background-color: #cacbcd;
+}
+
+.text {
+  margin-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  width: 500px;
+  height: 50px;
+}
+
+.pass {
+  margin-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  width: 500px;
+  height: 50px;
+}
+
+.email {
+  margin-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  width: 500px;
+  height: 50px;
+}
+
+span {
+  margin-top: 30px;
+}
+
+#footer {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #232F3E;
+}
+#footer .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#footer .container .col-md-3 .footer-head {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #ddd;
+  text-align: left;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+#footer .container ul {
+  list-style-type: none;
+  text-align: left;
+}
+#footer .container li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+#footer .container a {
+  text-decoration: none;
+  color: #ddd;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: 1s;
+}
+#footer .container a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=practice-divine-style.css.map */
