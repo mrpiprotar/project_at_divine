@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.brightness{
+    width: 45px;
+    height: 45px;
+    background: #0076a3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    float: left;
+    margin-top: 210px;
+    color: white;
+    position: fixed;
+    z-index: 1;
+    cursor: pointer;
+}
+.setting{
+    width: 45px;
+    height: 45px;
+    background: #343a40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    float: left;
+    margin-top: 265px;
+    color: white;
+    position: fixed;
+    z-index: 1;
+    cursor: pointer;
+}
+.header{
+    width: 100%;
+    height: auto;
+    background-image: url(../image/home4-bg.png);
+    background-repeat: no-repeat;
+}
+.twitter{
+    margin-left: 250px;
+    padding-top: 0px;
+    animation-name: twitter;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes twitter{
+    from{
+        transform: translateY(10px);
+    }
+    to{
+        transform: translateY(90px);
+    }
+}
+@media only screen and (min-width:0px) and (max-width:500px){
+    .twitter{
+        float: left;
+        margin-left: 10px;
+    }
+}
+.message{
+    margin-left: 900px;
+    padding-top: 0px;
+    animation-name: message;
+    animation-duration: 2s;
+    animation-delay: 1.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes message{
+    from{
+        transform: translateY(10px);
+    }
+    to{
+        transform: translateY(90px);
+    }
+}
+@media only screen and (min-width:0px) and (max-width:500px){
+    .message{
+        float: right;
+        margin-left: 10px;
+    }
+}
+.heading-1{
+    font-size: 38px;
+    font-weight: 900 !important;
+    font-family: 'Poppins', sans-serif;
+    color: #183b56;
+    text-align: center;
+    line-height: 1.4;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+.text-of-header{
+    font-size: 16px;
+    font-family: 'roboto', sans-serif;
+    color: #838485 !important;
+    opacity: 1;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.header-twodiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 20px;
+    padding-bottom: 0px;
+}
+.get-started-div{
+    width: 150px;
+    height: 50px;
+    background: linear-gradient(80deg, #46a5bd 0%, #116a8d 100%);
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: .5px;
+    text-transform: capitalize;
+    font-family: 'helvetica', sans-serif;
+    cursor: pointer;
+}
+.learn-more-div{
+    width: 150px;
+    height: 50px;
+    font-size: 14px;
+    letter-spacing: .5px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: 'helvetica', sans-serif;
+    border: 1px solid #0076a3;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+    color: #0076a3;
+    transition: 1s;
+    cursor: pointer;
+}
+.learn-more-div:hover{
+    background-color: #0076a3;
+    color: #fff;
+}
+.heart{
+    margin-left: 1050px;
+    padding-top: 0px;
+    animation-name: heart;
+    animation-duration: 2.5s;
+    animation-delay: 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes heart{
+    from{
+        transform: translateY(-30px);
+    }
+    to{
+        transform: translateY(50px);
+    }
+} 
+@media only screen and (min-width:0px) and (max-width:500px){
+    .heart{
+        float: right;
+        margin-left: 0px;
+    }
+}   
+.chat{
+    margin-left: 0px;
+    padding-top: 0px;
+    animation-name: chat;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes chat{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(70px);
+    }
+}
+@media only screen and (min-width:0px) and (max-width:500px){
+    .chat{
+        float: left;
+        margin-left: 50px;
+        z-index: 1;
+    }
+}
+.like{
+    margin-left: 0px;
+    padding-top: 0px;
+    animation-name: like;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes like{
+    from{
+        transform: translateY(-30px);
+    }
+    to{
+        transform: translateY(30px);
+    }
+}
+@media only screen and (min-width:0px) and (max-width:500px){
+    .like{
+        float: right;
+        margin-left: -40px;
+    }
+}    
+.header-bgimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (min-width:0px) and (max-width:500px){
+    .bgimg{
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+}
+.container-what-we-do{
+    padding-top: 100px;
+    background: #e5e7e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail-what-we-do{
+    text-align: center;
+}
+.subtitle-what-we-do{
+    font-size: 18px;
+    color: #0076a3;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+.heading-what-we-do{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700 !important;
+    color: #183b56;
+    margin-bottom: 0.5rem;
+}
+.text-what-we-do{
+    opacity: 1;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #838485 !important;
+    letter-spacing: -0.5px;
+    padding-bottom: 50px;
+}
+.row-justify-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 20px;
+    padding-bottom: 100px;
+    background: #e5e7e8;
+}
+.secured-rect{
+    text-align: center;
+    background: #e5e7e8;
+    padding: 20px;
+    transition: 1s;
+}
+.secured-rect:hover{
+    background: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.secured-logo{
+    background-image: url(../image/bomb.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1.5rem;
+    text-align: center;
+    font-family: "Roboto",sans-serif;
+    color: #183b56;
+    padding-bottom: 50px;
+}
+.heading-secured{
+    font-size: 1.25rem;
+    font-weight: 600 !important;
+    font-family: 'Poppins', sans-serif;
+    color: #183b56;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.text-secured{
+    font-size: 15px;
+    color: #838485 !important;
+    font-family: "Roboto",sans-serif;
+    line-height: 25px;
+}
+.creative-rect{
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+.deasign-rect{
+    text-align: center;
+    padding: 20px;
+    background: #e5e7e8;
+    border-radius: 20px;
+    transition: 1s;
+}
+.deasign-rect:hover{
+    background: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+h6{
+    font-size: 18px;
+    font-family: "Poppins",sans-serif;
+    color: #0076a3 !important;
+    font-weight: 700 !important;
+    text-align: center;
+    margin-top: 100px; 
+}
+.f-40{
+    font-size: 40px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 700 !important;
+    color: #183b56;
+    text-align: center;
+}
+.text-muted{
+    color: #838485 !important
+}
+.f-15{
+    font-size: 15px;
+    font-family: "Roboto",sans-serif;
+    line-height: 25px;
+}
+.text-center{
+    text-align: center !important;
+}
+.button{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+}
+.top-features{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #0076a3;
+    border-radius: 5px;
+    background: linear-gradient(#2e8da5 0%, #114d64 100%);
+    font-size: 18px;
+    color: #fff;
+    line-height: 50px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400px;
+    cursor: pointer;
+}
+.smart-features{
+    width: 200px;
+    height: 50px;
+    margin: 0 10px;
+    border: 1px solid rgba(24,59,86,.5);
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: #183b56;
+    line-height: 30px;
+    font-family: "Roboto",sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.material-icon1{
+    margin-top: 50px;
+}
+.material-icons{
+    padding: 10px 10px;
+    border-radius: 50%;
+    color: #0076a3;
+    background-color: rgba(0,118,163,.1) !important;
+}
+h5{
+    font-family: "Poppins",sans-serif;
+    font-weight: 600 !important;
+    line-height: 1.4;
+    color: #183b56; 
+}
+.fa{
+    padding: 10px 10px;
+    border-radius: 50%;
+    color: #0076a3;
+    background-color: rgba(0,118,163,.1) !important;
+}
+h3{
+    font-family: "Poppins",sans-serif;
+    font-weight: 700 !important;
+    line-height: 1.4;
+    color: #183b56;  
+}
+.btn-light {
+    background: linear-gradient(80deg, #46a5bd 0%, #116a8d 100%);
+    border: none !important;
+    color: #fff !important;
+}
+.btn {
+    padding: 12px 50px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    transition: all .5s;
+    border: 1px solid #0076a3;
+    overflow: hidden;
+    position: relative;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+img{
+    vertical-align: middle;
+}
+.text-dark{
+    color: #183b56 !important;
+}
+.text-muted{
+    font-family: "Roboto",sans-serif;
+    text-align: justify; 
+}
+.btn-primary{
+    background: linear-gradient(80deg, #46a5bd 0%, #116a8d 100%) !important;
+    border: none !important;
+}
+.col-md-5{
+    margin-top: 10px;
+    padding-left: 50px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: #114d64;
+    border-radius: 50px;    
+}
+.col-md-7{
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 50px;
+}
+.price-up-box{
+    background-color: #183b56 !important;
+}
+.f-22{
+    font-size: 22px;
+}
+.f-16{
+    font-size: 16px;
+}
+.f-15{
+    font-size: 15px;
+    line-height: 25px;
+}
