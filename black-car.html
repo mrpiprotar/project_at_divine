@@ -1,0 +1,308 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Landing Page Preview</title>
+
+    <link rel="stylesheet" href="css/black-car.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+</head>
+<body>
+    <div class="container-fluid bg-dark my-auto">
+        <div class="header-logo">
+            <img  class="mt-3" src="../Envato Market/image/logo1.svg" alt="" width="150px" height="30px">
+            <div class="header-button mx-auto">Buy Now</div>
+        </div>
+    </div>
+    <div class="container">
+            <div class="text-muted
+             text-end fw-900">CONTACT: (562) 498-4600
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fw-700">
+                    <select class="form-select">
+                        <option>Select Your Language</option>
+                        <option>English</option>
+                        <option>Germon</option>
+                        <option>French</option>
+                    </select>
+            </div>
+    </div>
+    <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light mt-3">
+            <div class="container">
+                <a href="" class="navbar-brand"><img src="../Envato Market/image/logo-red.gif" alt=""></a>
+                <button class="navbar-toggler" data-bs-target="menu" data-bs-toggle="collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item" style="border: 2px solid rgb(101, 96, 96);"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Vehicle&nbsp;Models</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Locations</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <section id="teaser">
+        <div class="container mt-5 pt-5 pb-5">
+            <div class="row">
+                <div class="col-md-4 text-center bg-light m-3 p-3">
+                    <div class="styled-select-car text-start">
+                        <select name="car-select" id="car-select">
+                            <option value="">Select Your Car Type</option>
+                            <option value="" class="fw-600">VW GOLFVII</option>
+                            <option value="">Audi A1 S-Line</option>
+                            <option value="">Toyota Camry</option>
+                            <option value="">BMW 320,orden Line</option>
+                            <option value="">VW Passat</option> 
+                        </select>
+                    </div><br>
+                    <div class="input-group input-group-md">
+                        <label class="input-group-text text-muted"><i class="material-icons">place</i>Pick Up</label>
+                        <input type="text" class="form-control" placeholder="Enter a City or Airport">
+                    </div>
+                    <a class="different-drop-of" href="#">Need a different drop-off location?</a>
+                    <div class="input-group input-group-md mb-3">
+                        <label class="input-group-text text-muted"><i class="material-icons">place</i>Drop-off</label>
+                        <input type="text" class="form-control" placeholder="Enter a City or Airport">
+                    </div>
+                    <div class="datetime pick-up">
+                        <div class="date pull-left">
+                            <div class="input-group">
+                                <span class="input-group-text text-muted" style="font-weight: 700;"><i class="fa fa-calendar" style="padding-right: 5px; font-weight: 600;"></i>Pick Up</span>
+                                <input type="text" class="form-control datepicker" placeholder="mm/dd/yyyy">
+                            </div>
+                        </div>
+                        <div class="time pull-right">
+                            <div class="styled-select-time" style="border: 2px solid #efe9e9;">
+                                <select name="pick-up-time" style="color: #c61334; font-size: 16px; height: 36px; border: none;" id="pick-up-time">
+                                    <option value="12:00 AM">12:00 AM</option>
+                                    <option value="12:30 AM">12:30 AM</option>
+                                    <option value="1:00 AM">1:00 AM</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="datetime drop-off">
+                        <div class="date pull-left">
+                            <div class="input-group mt-3">
+                                <span class="input-group-text text-muted" style="font-weight: 700;"><i class="fa fa-calendar" style="padding-right: 5px; font-weight: 600;"></i>Pick Up</span>
+                                <input type="text" class="form-control datepicker" placeholder="mm/dd/yyyy">
+                            </div>
+                        </div>
+                        <div class="time pull-right">
+                            <div class="styled-select-time" style="border: 2px solid #efe9e9; margin-top: 14px;">
+                                <select name="pick-up-time" style="color: #c61334; font-size: 16px; height: 36px; border: none;" id="pick-up-time">
+                                    <option value="12:00 AM">12:00 AM</option>
+                                    <option value="12:30 AM">12:30 AM</option>
+                                    <option value="1:00 AM">1:00 AM</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="submit" class="submit" name="submit" value="continue car reservation">
+                </div>
+                <div class="col-md-6 text-center m-3 p-3">
+                    <h2 class="title">
+                        LUXURY CAR FROM FROM $28 DAY
+                        <span class="subtitle">Treat yourself in USA</span>
+                    </h2>
+                    <div class="car-img">
+                        <img src="../Envato Market/image/car1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="arrow-down"></div>
+    <section id="services" class="container">
+        <div class="row">
+            <div class="col-md-12 title">
+                <h2 class="text-muted">Custmor Services</h2>
+                <span class="underline">&nbsp;</span>
+            </div>
+            <div class="col-md-6 mt-5" data-aos="fade-right">
+                <div class="service-box">
+                    <div class="service-icon">+</div>
+                    <h3 class="service-title">Special rates on car booking</h3>
+                    <p class="service-content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed nonumy eirmod tempor invidunt ut labore et dolore magnaed aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.</p>
+                </div>
+            </div>
+            <div class="col-md-6 mt-5" data-aos="fade-left">
+                <div class="service-box">
+                    <div class="service-icon">+</div>
+                    <h3 class="service-title">Mobile Phone Reservation</h3>
+                    <p class="service-content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed nonumy eirmod tempor invidunt ut labore et dolore magnaed aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.</p>
+                </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-right">
+                <div class="service-box">
+                    <div class="service-icon">+</div>
+                    <h3 class="service-title">Unlimited Miles Car Rental</h3>
+                    <p class="service-content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed nonumy eirmod tempor invidunt ut labore et dolore magnaed aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.</p>
+                </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-left">
+                <div class="service-box">
+                    <div class="service-icon">+</div>
+                    <h3 class="service-title">One Way Car Rentals</h3>
+                    <p class="service-content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed nonumy eirmod tempor invidunt ut labore et dolore magnaed aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section id="newsletter">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h2 class="title">
+                        SIGN UP FOR AMAZING OFFERS
+                        <span class="subtitle">EXCLUSIVE ACCESS FOR OFFERS AND PROMOTIONS</span>
+                    </h2>
+                </div>
+                <div class="col-md-7">
+                    <div class="container d-flex">
+                        <div class="input-group">
+                            <input type="email" name="newsletter-email" placeholder="Enter your Email Address">
+                            <span class="input-group-btn">
+                                <input class="btn btn-default button" type="submit" value="send">
+                            </span>
+                        </div>
+                        <div class="social-icon">
+                            <ul class="d-flex">
+                                <li>
+                                    <a class="twitter" href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="google-plus" href="">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="facebook" href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="vehicles" class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="title">
+                    Vehicles Modal - 
+                    <span class="subtitle">Our rental fleet at a glance</span>
+                </h2>
+            </div>
+            <div id="vehicle-nav-container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <ul class="vehicle-nav">
+                            <li class="active">
+                                <a href="#">VW Golf VII</a>
+                                <span class="active">&nbsp;</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="../Envato Market/image/vehicle1.jpg" alt="">
+                    </div>
+                    <div class="col-md-3">
+                        <div class="vehicle-price text-muted">
+                            $ 37.40
+                            <span class="info">rent per day</span>
+                        </div>
+                        <table class="table vehicle-feature text-muted">
+                            <tbody>
+                                <tr>
+                                    <td>Model</td>
+                                    <td>limousfa-inverse</td>
+                                </tr>
+                                <tr>
+                                    <td>Doors</td>
+                                    <td>4</td>
+                                </tr>
+                                <tr>
+                                    <td>Seats</td>
+                                    <td>5</td>
+                                </tr>
+                                <tr>
+                                    <td>Luggage</td>
+                                    <td>2 Suitcase/2 Bags</td>
+                                </tr>
+                                <tr>
+                                    <td>Transmission</td>
+                                    <td>Automatic</td>
+                                </tr>
+                                <tr>
+                                    <td>Air Conditioning</td>
+                                    <td>Yes</td>
+                                </tr>
+                                <tr>
+                                    <td>Minimum Age</td>
+                                    <td>25 years</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <a href="#" class="reserve-button">
+                            <span><i class="fa fa-calendar" style="padding-right: 7px; font-weight: 600;"></i></span>
+                            reserve now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="reviews">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <span><i class="material-icons">star</i></span>
+                    <span><i class="material-icons">star</i></span>
+                    <span><i class="material-icons" style="font-size:36px;">star</i></span>
+                    <span><i class="material-icons">star</i></span>
+                    <span><i class="material-icons">star</i></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init(3000);
+  </script>
+</body>
+</html>
